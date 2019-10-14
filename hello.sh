@@ -1,2 +1,2 @@
-#!/bin/bash
-echo "Hello, giantpromove"
+#
+echo "Hello, giantpromove!"
