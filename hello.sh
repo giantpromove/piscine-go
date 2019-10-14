@@ -1,2 +1,2 @@
 #
-echo "Hello, giantpromove!"
+echo "Hello giantpromove!"
