@@ -1,7 +1,8 @@
 package main
 
 import (
-	"github.com/01-edu/z01"
+	"github.com/01-edu/z01",
+	"./student"
 )
 
 func IsNegative(nb int) {
