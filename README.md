@@ -1,1 +1,2 @@
-# piscine-go
+#!/bin/bash
+echo "Hello, giantpromove"

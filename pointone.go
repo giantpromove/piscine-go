@@ -1,13 +1,9 @@
-package piscine 
+package piscine
 
-import (
-	"github.com/01-edu/fmt"
-)
+import "github.com/01-edu/fmt"
 
-	func  PointOne(n* int) {
+func  PointOne(n* int) {
 
-
-	n := 1
-	}
+	n* = 1
 
 }
