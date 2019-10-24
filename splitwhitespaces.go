@@ -47,4 +47,3 @@ func SplitWhiteSpaces(str string) []string {
 
 	}
 	return t
-	
