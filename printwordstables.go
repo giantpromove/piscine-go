@@ -1,9 +1,9 @@
 package piscine
 
 func PrintWordsTables(table []string) {
-	table := lent(table)
+	table := len(table)
 
 	for i := 0; i <= table-1; i++ {
-		Printrunes(table[i], 0)
+		PrintRunes(table[i], 0)
 	}
 }
