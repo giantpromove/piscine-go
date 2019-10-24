@@ -1,4 +1,4 @@
-package main
+package piscine
 
 func ConcatParams(args []string) string {
 	result := ""
