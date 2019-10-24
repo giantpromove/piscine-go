@@ -11,7 +11,7 @@ func SplitWhiteSpaces(str string) []string {
 			TextToString += string(v)
 		} else {
 			if len(TextToString) >= 1 {
- 				t = append(t, TextToString)
+			t = append(t, TextToString)
 			}
 			TextToString = ""
 		}
