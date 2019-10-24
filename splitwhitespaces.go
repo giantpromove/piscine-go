@@ -18,10 +18,10 @@ func SplitWhiteSpaces(str string) []string {
 	}
 	return t
 }
-func lent2(d string ) int{
-	hway:=0
-		for _, _= range d{
-			hway ++
-		}
-		 return hway
-	}
+func lent2(d string) int {
+	hway := 0
+	for range d {
+		hway++
+ 	}
+	return hway
+}
