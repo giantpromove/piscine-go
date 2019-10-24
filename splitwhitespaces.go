@@ -1,4 +1,8 @@
-package piscine
+package main
+
+import (
+	"fmt"
+)
 
 func SplitWhiteSpaces(str string) []string {
 	TextToString := ""
