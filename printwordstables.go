@@ -1,11 +1,15 @@
 package piscine
 
-import piscine ".."
+import (
+	"github.com/01-edu/z01"
+)
 
 func PrintWordsTables(table []string) {
-	table := len(table)
-
-	for i := 0; i <= table-1; i++ {
-		PrintRunes(table[i], 0)
+	for _, str := range table {
+		strAsRune := []rune(str)
+		for _, l := range strAsRune {
+			z01.PrintRune(l)
+		}
+		z01.PrintRune('\n')
 	}
 }
