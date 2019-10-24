@@ -22,6 +22,6 @@ func lent2(d string) int {
 	hway := 0
 	for range d {
 		hway++
- 	}
+	}
 	return hway
 }
