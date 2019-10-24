@@ -1,6 +1,6 @@
 package piscine
 
-import 	piscine ".."
+import piscine ".."
 
 func PrintWordsTables(table []string) {
 	table := len(table)
