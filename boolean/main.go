@@ -13,7 +13,6 @@ func printStr(str string) {
 	z01.PrintRune('\n')
 }
 
-
 func even(nbr int) bool {
 
 	if nbr%2 == 0 {
