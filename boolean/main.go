@@ -21,7 +21,6 @@ func even(nbr int) bool {
 	return false
 }
 
-
 func isEven(nbr int) bool {
 
 	if even(nbr) == true {
