@@ -25,30 +25,6 @@ func even(nbr int) bool {
 	}
 	return false
 }
-	}
-
-	if temp_board[row][col] != '.' {
-		*board = temp_board
-		return solve(board, row, col+1)
-	}
-
-	for i := 1; i <= 9; i++ {
-		r := getRune(i)
-
-		*board = temp_board
-		if isValid(board, row, col, r) {
-			temp_board[row][col] = r
-			*board = temp_board
-			if solve(board, row, col+1) {
-				return true
-			}
-			temp_board[row][col] = '.'
-			*board = temp_board
-		}
-	}
-	return false
-}
-
 
 
 func isEven(nbr int) bool {
