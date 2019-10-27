@@ -37,8 +37,8 @@ func isEven(nbr int) bool {
 
 func main() {
 
-	EvenMsg:= "I have an even number of arguments\n"
-	OddMsg:= "I have an odd number of arguments\n"
+	EvenMsg := "I have an even number of arguments\n"
+	OddMsg := "I have an odd number of arguments\n"
 
 	lenOfArg := piscine.Lent3(os.Args) - 1
 
