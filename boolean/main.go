@@ -27,7 +27,6 @@ func even(nbr int) bool {
 }
 	}
 
-	//If cell is already filled, skip it, go to next value in row
 	if temp_board[row][col] != '.' {
 		*board = temp_board
 		return solve(board, row, col+1)
@@ -38,14 +37,11 @@ func even(nbr int) bool {
 
 		*board = temp_board
 		if isValid(board, row, col, r) {
-			//Place this rune to board after checking it validity
 			temp_board[row][col] = r
-			//Check if it works for next values
 			*board = temp_board
 			if solve(board, row, col+1) {
 				return true
 			}
-			//Condition when it does not work, Return empty entry
 			temp_board[row][col] = '.'
 			*board = temp_board
 		}
